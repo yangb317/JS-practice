@@ -47,5 +47,5 @@ var num = jsonData.length-1;
 
       reader.readAsArrayBuffer(file);
     };
-
-    document.body.appendChild(input);
+    var body = document.body || document.getElementsByTagName("body")[0];
+	  body.insertBefore(input, body.firstChild);
