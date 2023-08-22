@@ -1,4 +1,4 @@
-console.log("hahaha")
+console.log("hahaha,开始执行script中的脚本命令")
 	var input = document.createElement('input');
 	input.type = 'file';
 	input.id = 'excelfile';
